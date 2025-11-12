@@ -1,1 +1,1 @@
-{"version":3,"sources":["portfolio-styles.scss"],"names":[],"mappings":"AAAA,KACI,oBAAA,CACA,UAAA","file":"portfolio-styles.css","sourcesContent":["body {\n    background-color: red;\n    color: aqua;\n}"]}
+{"version":3,"sources":[],"names":[],"mappings":"","file":"portfolio-styles.css"}
