@@ -1,0 +1,24 @@
+@use "uswds-core" with (
+  $theme-show-compile-warnings: false,
+  $theme-show-notifications: false,
+);
+
+@forward "uswds-theme";
+@forward "uswds";
+@forward "uswds-theme-custom-styles";
+
+//Define your fonts and overrides *first* — before using USWDS
+$playfair: (
+  "name": "Playfair Display",
+  "stack": "Playfair Display, serif"
+);
+
+$inter: (
+  "name": "Inter",
+  "stack": "Inter, system-ui, sans-serif"
+);
+
+/* Override USWDS typography tokens */
+$theme-font-role-heading: $playfair;
+$theme-font-role-body: $inter;
+$theme-font-type-sans: $inter;
